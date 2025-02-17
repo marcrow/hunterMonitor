@@ -1,0 +1,14 @@
+[Unit]
+Description=Hunter Log Monitor Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/hunterMonitor/hunterMonitor.py
+WorkingDirectory=/opt/hunterMonitor
+Restart=always
+RestartSec=5
+User=YourUser
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,13 @@
+logs:
+  - path: "/var/log/nginx/<name_of_the_file>.log"
+    target: "domain or subdomain to monitor"
+    application: "Name of the application - Collaborator for example"
+  - path: "/var/log/nginx/<name_of_the_file>.log"
+    target: "domain or subdomain to monitor"
+    application: "Name of the application - XSSHunter for example"
+
+mailgun:
+  api_key: "replace by your own"
+  endpoint: "Issuer email"
+  recipient: "Your email"
+  domain: "Your domain"
