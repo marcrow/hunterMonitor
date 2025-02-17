@@ -1,6 +1,8 @@
+# Hunter Monitor
 
+![alt text](resources/hunterMonitor_logo.png)
 
-
+Hunter Monitor: Never miss again a ping back.
 
 # Installation 
 

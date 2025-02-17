@@ -10,4 +10,4 @@ mailgun:
   api_key: "replace by your own"
   endpoint: "Issuer email"
   recipient: "Your email"
-  domain: "Your domain"
+  domain: "Your mailgun subdomain - should bve your  domain or sandbox something"
